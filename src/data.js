@@ -123,3 +123,21 @@ export const skills = [
     ],
   },
 ];
+
+export const highlights = [
+  {
+    title: "Product Focused Engineer",
+    description:
+      "I bridge the gap between technical implementation and user needs through strong collaboration and product-focused engineering.",
+  },
+  {
+    title: "Adaptable & Growth-Driven",
+    description:
+      "I thrive in fast-paced environments where continuous learning, adaptability, and ownership are essential.",
+  },
+  {
+    title: "Mission-Driven",
+    description:
+      "Built EnergyScore at Solstice — a platform expanding clean energy access for low-to-moderate-income households.",
+  },
+];
