@@ -11,7 +11,7 @@ export default function NavBar() {
     <nav className="flex justify-evenly m-16">
       {/* Brand */}
       <span className="font-mono text-sm font-medium text-green-700">
-        tiffany do
+        {`<tiffany do />`}
       </span>
 
       {/* Nav links */}

@@ -2,6 +2,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Highlights from "./components/Highlights";
+import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <Highlights />
         <Experience />
         <Skills />
+        <Projects />
         <Education />
       </main>
     </>

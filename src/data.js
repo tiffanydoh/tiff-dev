@@ -141,3 +141,46 @@ export const highlights = [
       "Built EnergyScore at Solstice — a platform expanding clean energy access for low-to-moderate-income households.",
   },
 ];
+
+export const projects = [
+  {
+    title: "AI Finance Tracker",
+    company: "Personal Project",
+    description: [
+      "Currently building a personal finance app with AI integration as a way to deepen full-stack skills and explore AI-powered product development. Designed to help users track spending, set budgets, and receive AI-generated insights on their financial habits. Using this project to learn how to integrate and work with AI APIs in a real-world application.",
+    ],
+    tags: ["In Progress", "React", "Node.js", "AI"],
+    type: "Personal",
+    link: null,
+  },
+  {
+    title: "AI Chatbot Widget",
+    company: "RipeMetrics",
+    description: [
+      "Designed and implemented advanced AI chatbot widget integrations to help expand the platform into an AI service, enhancing functionality and user engagement.",
+    ],
+    tags: ["React", "PHP", "Laravel", "AI"],
+    type: "Professional",
+    link: null,
+  },
+  {
+    title: "Solstice Platform",
+    company: "Solstice",
+    description: [
+      "Contributed to a wide range of impactful projects: Versium API, Churn Management, Payment Plans, Enrollment Enhancements, Developer Portal/ Reporting Tools, Billing and Invoicing Improvements, Platform Acessibility, Refactoring code, New Market Entries, Anchor Handling, Multiproperty, etc.",
+    ],
+    tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Express.js"],
+    type: "Professional",
+    link: null,
+  },
+  {
+    title: "EnergyScore",
+    company: "Solstice",
+    description: [
+      "A commercial web platform built around an AI-powered algorithm designed to increase clean energy product access for low-to-moderate-income households.",
+    ],
+    tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+    type: "Professional",
+    link: null,
+  },
+];
