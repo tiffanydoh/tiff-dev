@@ -18,9 +18,13 @@ export default function Education() {
               </span>
             </div>
             <p className="text-sm text-green-700 mb-2">{edu.degree}</p>
-            <p className="text-sm text-gray-500 leading-relaxed">
-              {edu.description}
-            </p>
+            <ul className="flex flex-col gap-1">
+              {edu.description.map((item) => (
+                <li className="text-sm text-gray-500 leading-relaxed flex gap-2">
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
