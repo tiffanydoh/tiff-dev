@@ -5,7 +5,7 @@ export default function Education() {
     <section id="education" className="mb-16">
       <h2 className="text-xs font-mono uppercase tracking-widest text-gray-400 mb-6 flex items-center gap-4">
         Education
-        <span className="flex-1 h-px bg-gray-100"></span>
+        <span className="flex-1 h-px bg-gray-200"></span>
       </h2>
 
       <div className="flex flex-col divide-y divide-gray-100">

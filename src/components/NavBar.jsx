@@ -59,12 +59,12 @@ export default function NavBar() {
       </ul>
 
       {/* Theme toggle button */}
-      <button
+      {/* <button
         onClick={toggleTheme}
         className="text-sm text-gray-500 border border-gray-200 rounded-full px-4 py-1.5 hover:border-gray-400 transition-colors"
       >
         {darkMode ? "☀" : "☾"}
-      </button>
+      </button> */}
     </nav>
   );
 }

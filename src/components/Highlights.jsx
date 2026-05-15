@@ -6,7 +6,7 @@ export default function Highlights() {
       <div className="grid grid-cols-3 gap-4 mb-16">
         {highlights.map((highlight) => {
           return (
-            <div className="bg-white border border-gray-100 rounded-xl p-6">
+            <div className="bg-white border border-gray-300 rounded-xl p-6">
               <h3 className="font-medium text-gray-900 mb-2">
                 {highlight.title}
               </h3>
