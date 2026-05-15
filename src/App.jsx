@@ -4,6 +4,7 @@ import Skills from "./components/Skills";
 import Highlights from "./components/Highlights";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
     <>
       <NavBar />
       <main className="max-w-3xl mx-auto px-8 py-16">
+        <Home />
         <Highlights />
         <Experience />
         <Skills />
