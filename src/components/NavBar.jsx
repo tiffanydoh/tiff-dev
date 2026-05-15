@@ -8,7 +8,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="flex justify-evenly m-16">
+    <nav className="flex justify-evenly sticky top-4 m-16">
       {/* Brand */}
       <span className="font-mono text-sm font-medium text-green-700">
         {`<tiffany do />`}
